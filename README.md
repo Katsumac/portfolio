@@ -1,4 +1,15 @@
-# Half video cover template for Bootstrap 5
+# Portfolio
+
+This is the portfolio website for Justin Ng. Template used is from MDBootstrap.
+
+## npm Packages Required
+
+- express
+- fs
+
+## MDBootstrap
+
+### Half video cover template for Bootstrap 5
 
 
 These templates were built with a **free Material Design UI Kit for the latest Bootstrap 5**.

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Justin Ng's Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+</head>
+<body>
+      <!--Main Navigation-->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark d-lg-block" style="z-index: 2000;">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+          <strong>Justin Ng</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutMe">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#myProjects">My Projects</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://www.linkedin.com/in/justin-ng-79921b240/" rel="nofollow" target="_blank">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://github.com/Katsumac" rel="nofollow" target="_blank">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="mailto: justincng58@gmail.com" rel="nofollow">
+                <i class="fa fa-envelope fa-2x"></i>
+
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div id="intro" class="bg-image vh-100 shadow-1-strong">
+      <video style="min-width: 100%; min-height: 100%;" playsinline autoplay muted loop>
+        <source class="h-100"
+          src="https://mdbootstrap.com/img/video/animation-intro-min.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="mask">
+        <div class="container d-flex align-items-center justify-content-center text-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Welcome to Justin's Portfolio</h1>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5">
+    <div class="container">
+      <!--Section: Content-->
+      <section>
+        <div class="row justify-content-evenly">
+          <h3 class="mb-5 text-center" id="aboutMe"><strong>About Me</strong></h3>
+          <div class="col-md-4 mb-4 text-md-end text-center">
+              <img src="/img/Justin Ng.jpg" class="img-fluid rounded-circle" id="profileImg"/>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <h5><strong>Who am I?</strong></h5>
+            <p class="text-muted">
+              Hi there! I'm Justin Ng, a co-op student in the Computer Systems Technology Program at BCIT.
+            </p>
+            <br>
+            <h5><strong>What I am Doing Right Now?</strong></h5>
+            <p class="text-muted">
+              As mentioned above, I am currently studying at BCIT. In addition to the YelpCamp solo project, 
+              I have worked on two BCIT group projects, all of which you will find below.
+            </p>
+            <p class="text-muted">Feel free to contact me if you have any questions! My contact information
+              can be found in the navbar.</p>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
+      <hr class="my-5" />
+
+      <!--Section: Content-->
+      <section class="text-center" id="myProjects">
+        <h3 class="mb-5"><strong>My Projects</strong></h3>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="/img/YelpCamp Home.png" class="img-fluid" />
+                <a href="https://yelp-camp-web-app.herokuapp.com/" target="_blank">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">YelpCamp</h5>
+                <p class="card-text">
+                  YelpCamp is a web application that allows users to explore campgrounds. Users may view the information, photos, 
+                  and reviews of each campground, as well as the profiles of the campground author and reviewers. Also, users can make
+                  their own campgrounds and post their own reviews. Made following Colt Steele's Udemy course "The Web Developer Bootcamp 2022",
+                  while adding my own features as well.
+                </p>
+                <a href="https://yelp-camp-web-app.herokuapp.com/" class="btn btn-primary" target="_blank">Visit YelpCamp</a>
+                <a href="https://github.com/Katsumac/YelpCamp" class="btn btn-success" target="_blank">Visit Git repo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/aBiteOfHome Home.png" class="img-fluid" />
+                <a href="https://a-bite-of-home.herokuapp.com/" target="_blank">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">A Bite of Home</h5>
+                <p class="card-text">
+                  A Bite of Home is a web application that helps home chefs to start their private businesses by allowing them a platform
+                  to sell their home-cooking, as well as post their recipes. Users can purchase home-cooked meals, as well as look up recipes
+                  from these home chefs. This is the second BCIT group project I've worked on.
+                </p>
+                <a href="https://a-bite-of-home.herokuapp.com/" class="btn btn-primary" target="_blank">Visit A Bite of Home</a>
+                <a href="https://github.com/lucasj8018/2800-202210-BBY28" class="btn btn-success" target="_blank">Visit Git repo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="/img/InstaPlan Home.png" class="img-fluid" />
+                <a href="https://comp1800-project-9594b.web.app/" target="_blank">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">InstaPlan</h5>
+                <p class="card-text">
+                  InstaPlan is a web application that helps to provide information about attractions, restaurants, and 2030 Olympic games
+                  (hypothetically) in Vancouver. This application also helps generate an itinerary for busy 2030 Vancouver Olympic tourists. This
+                  is the first BCIT group project I've worked on.
+                </p>
+                <a href="https://comp1800-project-9594b.web.app/" class="btn btn-primary" target="_blank">Visit InstaPlan</a>
+                <a href="https://github.com/lucasj8018/1800_202210_BBY26" class="btn btn-success" target="_blank">Visit Git repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <br>
+  <!--Main layout-->
+
+  <!--Footer-->
+
+
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
