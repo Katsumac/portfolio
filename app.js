@@ -11,6 +11,8 @@ app.get("/", (req, res) => {
     res.send(file);
 })
 
-app.listen(8000, () => {
-    console.log("The app is listening on port 8000!");
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+    console.log(`The app is listening on port ${port}!`);
 })
